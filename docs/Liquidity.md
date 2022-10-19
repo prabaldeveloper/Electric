@@ -26,7 +26,7 @@ function withdraw(address tokenAddress, uint256 amount) external {
 }
 ```
 
-> Removes the liquidity from the pool for a user
+> Removes the liquidity from the pool for a user.
 > Transfer the interest accumulated to the user
 
 
