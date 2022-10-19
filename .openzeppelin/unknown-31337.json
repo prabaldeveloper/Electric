@@ -1,0 +1,217 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x38553f50F1A8353ba4EAAEA03F0345ef1Fc7695c",
+    "txHash": "0xf94a821f2d1ec355d180b932e6031e27461e372bfa801f436f393a799ffabb7b"
+  },
+  "proxies": [
+    {
+      "address": "0xd600a63588fdb6d9572382410dAF37A0768207d1",
+      "txHash": "0x9f7870b956917cf44f95e876573849dfeed2ac5b50144f2f628b641d0bf592d7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd8655eCbc4Ce28c377ea93328954E3AECe12840f",
+      "txHash": "0xa5177084342782bb5dde8438ec1958fd6833852847ce9704280b9603c1283af3",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "eee2d4f70b83b854d68dd40a1d45e36e2b4665129ef566b68fdfac85b97ea909": {
+      "address": "0x75eA0C5275A913c194562002C8E1C8e25FcE5dCD",
+      "txHash": "0x87755631f74b073f51e3209b5bb4477c756edee96f7106d05fcb793593864645",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "Ownable",
+            "src": "contracts\\access\\Ownable.sol:21"
+          },
+          {
+            "label": "approvedAsset",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:7"
+          },
+          {
+            "label": "supplyAPY",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:9"
+          },
+          {
+            "label": "supplyAPYIncentives",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:11"
+          },
+          {
+            "label": "baseBorrowRate",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:13"
+          },
+          {
+            "label": "protocolMargin",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:15"
+          },
+          {
+            "label": "amms",
+            "offset": 0,
+            "slot": "57",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:17"
+          },
+          {
+            "label": "marginReservePercent",
+            "offset": 0,
+            "slot": "58",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:19"
+          },
+          {
+            "label": "liquidationRatio",
+            "offset": 0,
+            "slot": "59",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:21"
+          },
+          {
+            "label": "protocolFees",
+            "offset": 0,
+            "slot": "60",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:23"
+          },
+          {
+            "label": "liquidationPenalty",
+            "offset": 0,
+            "slot": "61",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:25"
+          },
+          {
+            "label": "slippageTolerance",
+            "offset": 0,
+            "slot": "62",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:27"
+          },
+          {
+            "label": "interestMarginCall",
+            "offset": 0,
+            "slot": "63",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:29"
+          },
+          {
+            "label": "interestLiquidation",
+            "offset": 0,
+            "slot": "64",
+            "type": "t_uint256",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:31"
+          },
+          {
+            "label": "treasuryContract",
+            "offset": 0,
+            "slot": "65",
+            "type": "t_address_payable",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:33"
+          },
+          {
+            "label": "______gap",
+            "offset": 0,
+            "slot": "66",
+            "type": "t_array(t_uint256)999_storage",
+            "contract": "AdminStorage",
+            "src": "contracts\\utils\\AdminStorage.sol:41"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)999_storage": {
+            "label": "uint256[999]",
+            "numberOfBytes": "31968"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
