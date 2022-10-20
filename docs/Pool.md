@@ -1,5 +1,5 @@
 # Contract for Liquidity pool
-#### contract name - liquidity
+#### contract name - pool
 
 > Contract for adding and removing the liquidity.
 > Distributing the interest to the liquidity providers. 
