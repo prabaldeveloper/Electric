@@ -7,9 +7,11 @@ contract MarginStorage {
 
      struct Deposit {
         uint256 marginAmount;
+        address assetAddress;
         uint256 marginReserve;
         uint256 leverage;
         uint256 loanAmount;
+        uint256 repaidLoan;
         uint256 interestAccumulated;
         uint256 timestamp;
         // uint256 usedMargin;

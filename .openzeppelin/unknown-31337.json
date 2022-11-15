@@ -1,8 +1,8 @@
 {
   "manifestVersion": "3.2",
   "admin": {
-    "address": "0x38553f50F1A8353ba4EAAEA03F0345ef1Fc7695c",
-    "txHash": "0xf94a821f2d1ec355d180b932e6031e27461e372bfa801f436f393a799ffabb7b"
+    "address": "0x34543e1F98CB33F473d77f33a9f5775AE30fE159",
+    "txHash": "0xbe5329effd05671b83afe0e2954ed8911cd44942996043764553a7fae061ea0b"
   },
   "proxies": [
     {
@@ -13,6 +13,131 @@
     {
       "address": "0xd8655eCbc4Ce28c377ea93328954E3AECe12840f",
       "txHash": "0xa5177084342782bb5dde8438ec1958fd6833852847ce9704280b9603c1283af3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf330b1f8ACAfCF4BE5Fd3776F0B05d43005a2519",
+      "txHash": "0xe5248e3ae698b52bba5729e5276f78274f1809cd1959639027f2fa3fc2a9d7bd",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xDAd6Dc722a33797d21456cEd41484AAD9aBc8c4B",
+      "txHash": "0xa8707abc92eae6795ef69f53a022abca32750dfa62164b38a06ff1f34f5747c4",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x91E516AbBE6e01893d35292d3A50D8E050aec95a",
+      "txHash": "0xb3c66a35325b04360cd77f125f7be18f09a99fe911ff3fdcf0bb8ff8e91a66cf",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x25738cCda4980e3893306A985ef92e001B2CE497",
+      "txHash": "0x427e2ef4b39c74f5d58fa3585d54a2995a10df4e1bc9e849fbdd1919910f85a7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xdab66687D8D1205ecEa281D43dBF1D8699ab9B47",
+      "txHash": "0x0f63372218cd024e49fca80596128fd6a2d0c1169c199aaadd215f1fbc8dc29a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE470eACB9E260875E3Ae18Cf7C05cece8D1443e9",
+      "txHash": "0x3a6f6d82c7e4cd986bcd688477d0c323240a985636ee6f87dfeac3731a014bd5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf8f56A560e5beE64096A67D43827242a93aBBCe5",
+      "txHash": "0xc85aa539cce0c74450b8204243e8f4d119b1d36c0dda901a39dcee31d91924cd",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3eB3029eE2134b5E2Fd41EEA9D70ddDAe998E0cB",
+      "txHash": "0x9c8554b4f97cd9054ee5d194e02d9d999bc7052924beb5a3b02b23df947a084b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xcBD97a5e61907d9C478C705f3695Cd9dC50e90F6",
+      "txHash": "0x48844c3de155f835fe72d89348bca69538e80974500826352ba0702cc40a51ea",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc5BA28872BD68Eb59FB135DC410aea74cFE6011C",
+      "txHash": "0xe0b9ca20b9cd7f46d1fc56fe6478c861f8a2ebd0e87fc8f580354ef459647a37",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xBB205683f0d74BE19F4A7c07056eC7E8b16A19fe",
+      "txHash": "0x30770535075efa4f25d6b476fa6f7ceb3b87f6ed71b194593b4d0b4e6529a3c8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x435ED284468406F7b6AA63f25C846AAf569e7DF5",
+      "txHash": "0xc67a0f1e636dcd85268ba0ce4623fae04db17113f42d9da23262cf276bac6d18",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xfD90D6ED91bF7af371eFeAe912A801F6e4d102e1",
+      "txHash": "0x78d65aa3a7d797aaf2b4a09704f93da6a5eac20246e8315361aa757258605e95",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xe7768C95ff03fFFD2cbC56B7FF16a65FF42085A9",
+      "txHash": "0x62d28714e4e1ceb0e768392e0f5934ef87870dba80ba09882ddcaaa2fc258185",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa5cD87619753B1842CBf83ca7bbd8E1CA898d43E",
+      "txHash": "0x09f35006bf3fc0b4086b9c439cb10ba5b8f9a6e6afaf05e857e658db92ec0ac7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x192E3C3b85e00eC65268DcB72BE70BDc8fA7500d",
+      "txHash": "0x79735586fd90ca7e1e5d7876c9952837b6bc165409293650491c3571899f2f57",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x082A35DF04108d88375C13469F55a72499167400",
+      "txHash": "0x1eed72e087529bbdfecd31399bbb79c27b9347c7d79be52ae491f9295430cf52",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xe76271cBFeE4fA18a742E4f0768fA7D4B281bAAc",
+      "txHash": "0x84eaa087bec7161a79ce84b8150df9cbcdcb4f7970dfc73f205ec7c3dbc9ebcf",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE8128Ac4bEE581dFBE061B96AA1767282A38F03E",
+      "txHash": "0xb715c54db6b414cf2220a90149658ae46eeb4736237994be77397820c054e4be",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0090533eEC9B177A1e99db5d24bDe3dEf72862Ce",
+      "txHash": "0xc9b9127c2547ed505f74473d07231ab8862bd99cb69f0b0922491db0cde0ea44",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x231b7Cc98d791f02AE5AafD4a80e7362bC83B5Ae",
+      "txHash": "0x1c116e0354d1308d57b9154007d35ce06e22d3fb2e00e188461e2dda873a64b8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb2E564008BF5F797A50dCF5599bEFEBbDB3E21A7",
+      "txHash": "0x7c8612ef6d1c890b0053168f050a763716a8a1b4d37a3318988daccddb729c4f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4D3d35f768904fa4f1a3Ca3c1359E92C22572a5C",
+      "txHash": "0x72cb195d61e770ad3893021b422b519fab20584fcc44c4a9f0e96ead53999314",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xccB2242d619C2201E4A5b40386575FFadfE0e7bd",
+      "txHash": "0x73680b55883fc6aa956e1ccb9d0bd97b97644d343864747abb42e2364501c515",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xeF522245321e97F7EEecaa8aE0661e06f034905D",
+      "txHash": "0xcde5ee5db999e031a551d10ad558c047600dd20f3c01a4c974d05bf0457945a2",
       "kind": "transparent"
     }
   ],
@@ -209,6 +334,1286 @@
           "t_uint8": {
             "label": "uint8",
             "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "2bb6e8c897898d8cb3477717e170cf832a3e86abba551cbfbf3f3b7d922e5541": {
+      "address": "0xE489354eC92DAecD2e0f056665c7E70ae3DF0CFc",
+      "txHash": "0xbff7d4a40b0a2114c336c29a2a6a1743ad702f8fd3c79bf52215090b914efdf5",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "depositDetails",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)237_storage))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:22"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)237_storage))": {
+            "label": "mapping(address => mapping(address => struct MarginStorage.Deposit))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Deposit)237_storage)": {
+            "label": "mapping(address => struct MarginStorage.Deposit)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Deposit)237_storage": {
+            "label": "struct MarginStorage.Deposit",
+            "members": [
+              {
+                "label": "marginAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "marginReserve",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "leverage",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "loanAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "interestAccumulated",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "usedMargin",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "usedLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "lossValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "gainValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "exitAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "10"
+              }
+            ],
+            "numberOfBytes": "352"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "bb689eb61b1c7b299ee243e59e26b421388e867cbfe5790b97d54aedcad33d19": {
+      "address": "0xB55Bdb085a3442f1231aE7e0422370ccF132Cac0",
+      "txHash": "0x2fa756d1467cb854ba40ac526462e5088b89c0e4abcd8df31f24357af99a3a9f",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "depositDetails",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)238_storage))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:22"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)238_storage))": {
+            "label": "mapping(address => mapping(address => struct MarginStorage.Deposit))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Deposit)238_storage)": {
+            "label": "mapping(address => struct MarginStorage.Deposit)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Deposit)238_storage": {
+            "label": "struct MarginStorage.Deposit",
+            "members": [
+              {
+                "label": "marginAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "marginReserve",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "leverage",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "loanAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "interestAccumulated",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "usedMargin",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "usedLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "lossValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "gainValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "exitAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "10"
+              }
+            ],
+            "numberOfBytes": "352"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "748c3e01450b436870dfd64bfb1a6a42e509970b65d587d4d09ff37cc82cf5b1": {
+      "address": "0x4eD189A4CEf1FB8158b2E7dF55a6F17a33B2A083",
+      "txHash": "0x1f687416452281027f16a3458509caece3fc6ebebb291ccee0017e3596eaebee",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "depositDetails",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)241_storage))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:22"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)241_storage))": {
+            "label": "mapping(address => mapping(address => struct MarginStorage.Deposit))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Deposit)241_storage)": {
+            "label": "mapping(address => struct MarginStorage.Deposit)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Deposit)241_storage": {
+            "label": "struct MarginStorage.Deposit",
+            "members": [
+              {
+                "label": "marginAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "marginReserve",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "leverage",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "loanAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "interestAccumulated",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "usedMargin",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "usedLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "lossValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "gainValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "exitAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "10"
+              }
+            ],
+            "numberOfBytes": "352"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "9974d683c3fcd168484ffaf4fce19e1b7f4a445bf7ce8226ba47a1122155e229": {
+      "address": "0xb76ed95759F780d3C9D25421491B87Ed9BAf53f0",
+      "txHash": "0x8c404fc2a287633d18c2076a73acee8b65488ce847a875e8ee153a2784aaf996",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "depositDetails",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)662_storage))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:24"
+          },
+          {
+            "label": "totalInterest",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:26"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuard",
+            "src": "contracts\\access\\ReentrancyGuard.sol:39"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)662_storage))": {
+            "label": "mapping(address => mapping(address => struct MarginStorage.Deposit))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Deposit)662_storage)": {
+            "label": "mapping(address => struct MarginStorage.Deposit)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Deposit)662_storage": {
+            "label": "struct MarginStorage.Deposit",
+            "members": [
+              {
+                "label": "marginAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "assetAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "marginReserve",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "leverage",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "loanAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "repaidLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "interestAccumulated",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "usedLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "lossValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "gainValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "10"
+              },
+              {
+                "label": "exitAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "11"
+              }
+            ],
+            "numberOfBytes": "384"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "433292a6f68d1cfeb03c9a3bfc45d5115144569734d26bee333134795e590df8": {
+      "address": "0x95c6D0EdD92e182f1efD97d30C40A3FE3F235A53",
+      "txHash": "0x8896fd25505fcc10b64b7bed93f42481a82acd6fec269a0b74103b6e128b475f",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "depositDetails",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)670_storage))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:24"
+          },
+          {
+            "label": "totalInterest",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:26"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuard",
+            "src": "contracts\\access\\ReentrancyGuard.sol:39"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)670_storage))": {
+            "label": "mapping(address => mapping(address => struct MarginStorage.Deposit))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Deposit)670_storage)": {
+            "label": "mapping(address => struct MarginStorage.Deposit)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Deposit)670_storage": {
+            "label": "struct MarginStorage.Deposit",
+            "members": [
+              {
+                "label": "marginAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "assetAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "marginReserve",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "leverage",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "loanAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "repaidLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "interestAccumulated",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "usedLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "lossValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "gainValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "10"
+              },
+              {
+                "label": "exitAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "11"
+              }
+            ],
+            "numberOfBytes": "384"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "267701a86c1703e56aeb57678c7ef2230a6697f256813091dc335bf0c3b9008d": {
+      "address": "0xA84cA936aBbc5122d623E0B781B895B86496178F",
+      "txHash": "0x4169fee8ab91a9d797d11239f473da9c94a62c92ef0df23997026c9d1e45436c",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "depositDetails",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)653_storage))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:24"
+          },
+          {
+            "label": "totalInterest",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:26"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuard",
+            "src": "contracts\\access\\ReentrancyGuard.sol:39"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)653_storage))": {
+            "label": "mapping(address => mapping(address => struct MarginStorage.Deposit))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Deposit)653_storage)": {
+            "label": "mapping(address => struct MarginStorage.Deposit)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Deposit)653_storage": {
+            "label": "struct MarginStorage.Deposit",
+            "members": [
+              {
+                "label": "marginAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "assetAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "marginReserve",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "leverage",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "loanAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "repaidLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "interestAccumulated",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "usedLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "lossValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "gainValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "10"
+              },
+              {
+                "label": "exitAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "11"
+              }
+            ],
+            "numberOfBytes": "384"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "9cef97c269bd81b34717cb552a7a2e35f3644a00d48b01f5cc5aafbb937cb50b": {
+      "address": "0xcA0111a843E6EB24Ba2736a87f127aE665Fc61ee",
+      "txHash": "0x28a637f511677d0738f9ae0bc1aa974efed553f6d7ffa85b82eeadd54c560898",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "depositDetails",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)668_storage))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:24"
+          },
+          {
+            "label": "totalInterest",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:26"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuard",
+            "src": "contracts\\access\\ReentrancyGuard.sol:39"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)668_storage))": {
+            "label": "mapping(address => mapping(address => struct MarginStorage.Deposit))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Deposit)668_storage)": {
+            "label": "mapping(address => struct MarginStorage.Deposit)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Deposit)668_storage": {
+            "label": "struct MarginStorage.Deposit",
+            "members": [
+              {
+                "label": "marginAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "assetAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "marginReserve",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "leverage",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "loanAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "repaidLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "interestAccumulated",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "usedLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "lossValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "gainValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "10"
+              },
+              {
+                "label": "exitAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "11"
+              }
+            ],
+            "numberOfBytes": "384"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "b61b42e30ea13a19e90beb59bc5f47eb9614717cd5e757f4969c155b1023aff8": {
+      "address": "0x2a7f50b6B90A13420324353C973aB68b65d01373",
+      "txHash": "0x0ec3abc0bd73c44d4659a0582e8dacf6f8dc0f3d6020fd72aad2cf05c707311c",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "depositDetails",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)674_storage))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:24"
+          },
+          {
+            "label": "totalInterest",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:26"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuard",
+            "src": "contracts\\access\\ReentrancyGuard.sol:39"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)674_storage))": {
+            "label": "mapping(address => mapping(address => struct MarginStorage.Deposit))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Deposit)674_storage)": {
+            "label": "mapping(address => struct MarginStorage.Deposit)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Deposit)674_storage": {
+            "label": "struct MarginStorage.Deposit",
+            "members": [
+              {
+                "label": "marginAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "assetAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "marginReserve",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "leverage",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "loanAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "repaidLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "interestAccumulated",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "usedLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "lossValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "gainValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "10"
+              },
+              {
+                "label": "exitAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "11"
+              }
+            ],
+            "numberOfBytes": "384"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "7669bd245e80673c7e9dc2cc6cd2b755b6683722c1e2fa303dd8596018d8afbf": {
+      "address": "0xCf0c32698e3122C45688FCB54c95746053314B66",
+      "txHash": "0x37ff22ae35a3aa92ae2ab40f8d30f2e1daf43d04c2a84616c8bcac14df13f9f8",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "depositDetails",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)674_storage))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:24"
+          },
+          {
+            "label": "totalInterest",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:26"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuard",
+            "src": "contracts\\access\\ReentrancyGuard.sol:39"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)674_storage))": {
+            "label": "mapping(address => mapping(address => struct MarginStorage.Deposit))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Deposit)674_storage)": {
+            "label": "mapping(address => struct MarginStorage.Deposit)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Deposit)674_storage": {
+            "label": "struct MarginStorage.Deposit",
+            "members": [
+              {
+                "label": "marginAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "assetAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "marginReserve",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "leverage",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "loanAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "repaidLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "interestAccumulated",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "usedLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "lossValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "gainValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "10"
+              },
+              {
+                "label": "exitAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "11"
+              }
+            ],
+            "numberOfBytes": "384"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "bee350f4b5c5016c296be6660ccf86778caaf79c95d6be8410d720e33948579d": {
+      "address": "0x34B1Bc8c1a60694202AA0e58B2f86EbCFF33F11B",
+      "txHash": "0x7cf2ecbeb14bae60b65e6a37fb87a00e45f087fe666870cd846b259281810c95",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "depositDetails",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)666_storage))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:24"
+          },
+          {
+            "label": "totalInterest",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "MarginStorage",
+            "src": "contracts\\utils\\MarginStorage.sol:26"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuard",
+            "src": "contracts\\access\\ReentrancyGuard.sol:39"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(Deposit)666_storage))": {
+            "label": "mapping(address => mapping(address => struct MarginStorage.Deposit))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Deposit)666_storage)": {
+            "label": "mapping(address => struct MarginStorage.Deposit)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Deposit)666_storage": {
+            "label": "struct MarginStorage.Deposit",
+            "members": [
+              {
+                "label": "marginAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "assetAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "marginReserve",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "leverage",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "loanAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "repaidLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "interestAccumulated",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "usedLoan",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "lossValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "gainValue",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "10"
+              },
+              {
+                "label": "exitAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "11"
+              }
+            ],
+            "numberOfBytes": "384"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
           }
         }
       }

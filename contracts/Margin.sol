@@ -1,11 +1,17 @@
 
+// import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "./utils/MarginStorage.sol";
+import "./access/ReentrancyGuard.sol";
+
+
 
 // SPDX-License-Identifier: UNLICENSED
 
 pragma solidity ^0.8.0;
 //Issue in withdraw and deposit function need to update it after implementing the interest fn
-contract Margin is MarginStorage {
+contract Margin is MarginStorage, ReentrancyGuard {
+    
+    receive() external payable {}
 
     event Deposited(address userAddress, address assetAddress, uint256 marginAmount, uint256 leverage, uint256 depositedTime);
 
@@ -16,8 +22,8 @@ contract Margin is MarginStorage {
         if(assetAddress == address(0)) {
             require(msg.value > 0, "Margin: Invalid inputs");
             marginAmount = msg.value;
+            payable(address(this)).transfer(marginAmount);   
         }
-        
         else {
             IERC20(assetAddress).transferFrom(msg.sender, address(this), marginAmount);
         }
@@ -29,7 +35,7 @@ contract Margin is MarginStorage {
         // If amount exists calculate interest accumulated so far
         //interest accumulated check
         depositInfo.interestAccumulated += getInterestAccumulated(msg.sender, assetAddress, depositInfo.loanAmount);
-
+        depositInfo.assetAddress = assetAddress;
         depositInfo.marginAmount += (marginAmount-marginReserve);
         depositInfo.marginReserve += marginReserve;
         depositInfo.leverage += leverage;
@@ -43,7 +49,7 @@ contract Margin is MarginStorage {
         emit Deposited(msg.sender, assetAddress, marginAmount, leverage, block.timestamp);
     }
 
-    function withdraw(address assetAddress, uint256 amountToWithdraw) external payable{
+    function withdraw(address assetAddress, uint256 amountToWithdraw) external nonReentrant payable{
 
         Deposit storage depositInfo = depositDetails[msg.sender][assetAddress];
 
@@ -102,14 +108,38 @@ contract Margin is MarginStorage {
 
         require(ltmRatio <= 4, "Margin: Cannot give more loan");
 
-        //loan availability check
-        
+        //loan availability check  
         depositInfo.loanAmount += borrowAmount;
 
+    }
 
+    // source = 1, from external wallet
+    // source = 2, from margin Account
+    function repay(address assetAddress, uint256 repayAmount, uint256 source) external payable {
 
+        Deposit storage depositInfo = depositDetails[msg.sender][assetAddress];
+        require(depositInfo.loanAmount >= repayAmount, "Margin: Excess repaid amount");
+        if(source == 1) {
+            if(assetAddress == address(0))  {
+                repayAmount = msg.value;
+                (bool sent, ) = address(this).call{ value: repayAmount}("");
+                require(sent, "Margin: Failed to transfer");
+            }
+            else {
+                IERC20(assetAddress).transferFrom(msg.sender, address(this), repayAmount);
+            }
+        }
+        //using the margin account
+        else {
+            require(depositInfo.marginAmount + depositInfo.marginReserve >= repayAmount, "Margin: Insufficient Margin");
+            uint256 reserveAmount = repayAmount * 500/10000;
+            depositInfo.marginAmount -= (repayAmount - reserveAmount);
+            depositInfo.marginReserve -= reserveAmount;
+        }
+        depositInfo.repaidLoan += repayAmount;
 
-
+        //whether to add the loan amount in the marginAmount??
+        
     }
 
     function getInterestAccumulated(address userAddress, address assetAddress, uint256 loanAmount) public pure returns(uint256) {
